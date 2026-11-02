@@ -94,7 +94,7 @@ bug-find/
 sudo apt update && sudo apt install -y python3 python3-pip git
 
 # 2. Clone the repo
-git clone https://github.com/<your-username>/bug-find.git
+git clone https://github.com/pbbsa47-tech/bug-find.git
 cd bug-find
 
 # 3. (Recommended) virtual environment
@@ -118,7 +118,7 @@ pkg update -y && pkg upgrade -y
 pkg install -y python git clang libffi openssl
 
 # 3. Clone
-git clone https://github.com/<your-username>/bug-find.git
+git clone https://github.com/pbbsa47-tech/bug-find.git
 cd bug-find
 
 # 4. Install Python packages
@@ -137,7 +137,7 @@ python bug-find.py -h
 
 ```bash
 brew install python3 git
-git clone https://github.com/<your-username>/bug-find.git
+git clone https://github.com/pbbsa47-tech/bug-find.git
 cd bug-find
 python3 -m pip install -r requirements.txt
 ```
